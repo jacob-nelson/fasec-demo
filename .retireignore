@@ -1,0 +1,5 @@
+# comment the below files to NOT exclude jquery from the retireJS scan
+
+@node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jquery.js
+@node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/jquery.js
+
