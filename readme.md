@@ -1,18 +1,19 @@
-Demo code for showing how to use our [ESHint plugin](https://github.com/rclanan/eslint-plugin-fasec).
+# Fusion Alliance Security for Node.js - Demo
+
+Demonstration of how to use [FASEC ESLint plugins](https://github.com/rclanan/eslint-plugin-fasec)
+in an application with the [FASEC Grunt plugin](https://github.com/fusionalliance/grunt-fasec)
 
 
-Prerequisites
--------------
+## Prerequisites
 
 Make sure the following are installed:
 
 1. NodeJs
-1. npm
-1. grunt (install globally with npm: `sudo npm install -g grunt-cli`)
+2. npm
+3. grunt (install globally with npm: `sudo npm install -g grunt-cli`)
 
 
-How to Use
-----------
+## How to Use
 
 After cloning this repo, run `npm install` to install dependencies.
 
@@ -20,13 +21,12 @@ Then to see the ESHint plugin in action, run `grunt fasec` from within the root 
 of security-related JavaScript errors, including some issues with jQuery.
 
 
-Remediation
------------
+## Remediation
 
 To fix the errors, do something like this...
 
 1. In app.js, comment out the two invalid Regex lines
-1. Also in app.js, comment out the password check code
+2. Also in app.js, comment out the password check code
 
 Obviously, you'd need more of a real fix in a real project. But commenting out the offending code will demonstrate
 the fasec plugin.
@@ -36,17 +36,15 @@ those files (i.e. you indeed do want to scan jquery for vulnerable code), you ca
 file. Or, just delete the .retireignore file.
 
 
-Contributors
-------------
+## Contributors
 
 [![Fusion Alliance Logo](https://avatars0.githubusercontent.com/u/1154219?v=3&u=e1451e6a65343331369d53a2b6e0c7046c2cc810&s=60)](https://github.com/FusionAlliance)
-**fasec-demo** is a product of Fusion Alliance &copy; 2015.
+**FASEC Demo** is a product of Fusion Alliance &copy; 2015.
 
 + [Ray Clannan](https://github.com/rclanan) (Author)
 
 
-LICENSE
--------
+## LICENSE
 
 The MIT License (MIT)
 
